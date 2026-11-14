@@ -1,0 +1,281 @@
+[
+  {
+    "id": "Q01",
+    "split": "dev",
+    "type": "direct",
+    "question": "Nợ nước ngoài của các nước thu nhập thấp và trung bình (LMICs) cuối năm 2025 là bao nhiêu và tăng bao nhiêu so với 2024?",
+    "expected_answer": "Kỷ lục 9,4 nghìn tỷ USD, tăng 5,5% so với 8,9 nghìn tỷ USD năm 2024.",
+    "gold_source_id": "data.pdf",
+    "gold_page": 27,
+    "evidence_quote": "LMICs' external borrowing levels reached a record $9.4 trillion at the end of the year, increasing 5.5 percent from $8.9 trillion in 2024.",
+    "filter": null
+  },
+  {
+    "id": "Q02",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Việc đồng USD mất giá giải thích tối thiểu bao nhiêu phần trăm mức tăng nợ công và nợ được bảo lãnh (PPG) của LMICs năm 2025?",
+    "expected_answer": "Ít nhất 28,2% của mức tăng 301,8 tỷ USD.",
+    "gold_source_id": "data.pdf",
+    "gold_page": 34,
+    "evidence_quote": "at least 28.2 percent can be attributed to the depreciation of the US dollar",
+    "filter": null
+  },
+  {
+    "id": "Q03",
+    "split": "dev",
+    "type": "direct",
+    "question": "Lãi suất bình quân của các cam kết nợ mới đối với các nước đủ điều kiện vay IDA năm 2025 là bao nhiêu, và mức này cao nhất kể từ năm nào?",
+    "expected_answer": "8,2% (tăng 0,6 điểm phần trăm); mức cao nhất kể từ năm 1989.",
+    "gold_source_id": "data.pdf",
+    "gold_page": 51,
+    "evidence_quote": "rates reaching 8.2 percent in 2025, up 0.6 percentage point",
+    "filter": null
+  },
+  {
+    "id": "Q04",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Trong giải ngân mới từ chủ nợ tư nhân cho khu vực công của LMICs năm 2025, trái phiếu chiếm tỷ trọng bao nhiêu và giá trị phát hành là bao nhiêu?",
+    "expected_answer": "Chiếm 68,1% giải ngân mới; phát hành trái phiếu tăng 34,6% lên 250,6 tỷ USD.",
+    "gold_source_id": "data.pdf",
+    "gold_page": 42,
+    "evidence_quote": "Bond issuances accounted for 68.1 percent of these new disbursements, increasing 34.6 percent to $250.6 billion",
+    "filter": null
+  },
+  {
+    "id": "Q05",
+    "split": "dev",
+    "type": "conditional",
+    "question": "Nếu loại trừ 34,5 tỷ USD gốc trả nợ từ các giao dịch mua lại/trả trước trái phiếu, tổng dịch vụ nợ của LMICs năm 2025 thay đổi thế nào?",
+    "expected_answer": "Giảm nhẹ 0,7% (thay vì tăng 1,9% như số liệu gộp).",
+    "gold_source_id": "data.pdf",
+    "gold_page": 49,
+    "evidence_quote": "total debt service of LMICs decreased by a moderate 0.7 percent in 2025",
+    "filter": null
+  },
+  {
+    "id": "Q06",
+    "split": "dev",
+    "type": "conditional",
+    "question": "Nếu không tính Trung Quốc, dòng nợ ròng chảy vào LMICs năm 2025 là bao nhiêu?",
+    "expected_answer": "Kỷ lục 527,6 tỷ USD (so với 423,5 tỷ USD khi tính cả Trung Quốc).",
+    "gold_source_id": "data.pdf",
+    "gold_page": 41,
+    "evidence_quote": "LMICs' net debt inflows increased to a record $527.6 billion in 2025",
+    "filter": null
+  },
+  {
+    "id": "Q07",
+    "split": "dev",
+    "type": "filter",
+    "question": "Tổng dư nợ nước ngoài của Việt Nam cuối năm 2025 là bao nhiêu và thay đổi thế nào so với 2024?",
+    "expected_answer": "131.777 triệu USD, giảm 0,9% so với 2024.",
+    "gold_source_id": "data.pdf",
+    "gold_page": 260,
+    "evidence_quote": "TOTAL EXTERNAL DEBT STOCK, 2025 131,777 -0.9% from 2024",
+    "filter": {
+      "profile_type": "country_profile",
+      "country": "Viet Nam"
+    }
+  },
+  {
+    "id": "Q08",
+    "split": "dev",
+    "type": "filter",
+    "question": "Tỷ lệ nợ nước ngoài trên GNI của Belize năm 2025 là bao nhiêu?",
+    "expected_answer": "51% (giảm 0,2% so với 2024).",
+    "gold_source_id": "data.pdf",
+    "gold_page": 153,
+    "evidence_quote": "External debt / GNI 51% -0.2%",
+    "filter": {
+      "profile_type": "country_profile",
+      "country": "Belize"
+    }
+  },
+  {
+    "id": "Q09",
+    "split": "dev",
+    "type": "filter",
+    "question": "Hồ sơ khu vực Cận Sahara châu Phi (Sub-Saharan Africa): tổng nợ nước ngoài năm 2025 và mức tăng so với 2024?",
+    "expected_answer": "1.020 tỷ USD, tăng 10,8%.",
+    "gold_source_id": "data.pdf",
+    "gold_page": 143,
+    "evidence_quote": "TOTAL EXTERNAL DEBT STOCK, 2025 1,020 +10.8% from 2024",
+    "filter": {
+      "profile_type": "regional_profile",
+      "region": "Sub-Saharan Africa"
+    }
+  },
+  {
+    "id": "Q10",
+    "split": "dev",
+    "type": "direct",
+    "question": "Ghana ký biên bản ghi nhớ (MoU) tái cơ cấu nợ với bao nhiêu chủ nợ song phương, quy mô nợ và mức giảm giá trị hiện tại ròng là bao nhiêu?",
+    "expected_answer": "25 chủ nợ song phương, khoảng 5,4 tỷ USD nợ, giảm 37% giá trị hiện tại ròng (NPV).",
+    "gold_source_id": "data.pdf",
+    "gold_page": 70,
+    "evidence_quote": "Ghana signed an MoU with 25 bilateral creditors in 2024 to restructure about $5.4 billion in outstanding debt.",
+    "filter": null
+  },
+  {
+    "id": "Q11",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Giao dịch hoán đổi tổng lợi suất (TRS) năm 2024 của Angola có quy mô, kỳ hạn và tỷ lệ tài sản bảo đảm là bao nhiêu?",
+    "expected_answer": "1,2 tỷ USD, kỳ hạn một năm, tỷ lệ bảo đảm 198%.",
+    "gold_source_id": "data.pdf",
+    "gold_page": 32,
+    "evidence_quote": "Angola entered a $1 .2 billion, one-year transaction in 2024 collateralized ... at 198 percent, equivalent to about $2.4 billion in collateral",
+    "filter": null
+  },
+  {
+    "id": "Q12",
+    "split": "dev",
+    "type": "direct",
+    "question": "Trong 68 nước IDA thuộc khung LIC-DSF, có bao nhiêu nước đang vỡ nợ hoặc có nợ công không bền vững cuối năm 2025?",
+    "expected_answer": "Chỉ 11 nước.",
+    "gold_source_id": "data.pdf",
+    "gold_page": 88,
+    "evidence_quote": "out of 68 IDA LIC-DSF countries, only 11 are in debt distress or have unsustainable public debt",
+    "filter": null
+  },
+  {
+    "id": "Q13",
+    "split": "dev",
+    "type": "conditional",
+    "question": "Mối liên hệ giữa gánh nặng nợ/xuất khẩu và thay đổi tình trạng không đủ khả năng chi trả cho chế độ ăn lành mạnh có ý nghĩa thống kê trong giai đoạn 2023–25 không?",
+    "expected_answer": "Không; mối liên hệ yếu đi và không còn ý nghĩa thống kê (khác với 2019–21 và 2021–23).",
+    "gold_source_id": "data.pdf",
+    "gold_page": 103,
+    "evidence_quote": "During 2023–25, the relationship weakened again and was no longer statistically significant.",
+    "filter": null
+  },
+  {
+    "id": "Q14",
+    "split": "dev",
+    "type": "direct",
+    "question": "Theo bản đồ nhiệt báo cáo nợ (Debt Reporting Heat Map), bao nhiêu nước IDA công bố dữ liệu nợ công hoàn toàn dễ tiếp cận năm 2025 so với 2020?",
+    "expected_answer": "54 nước (72%) năm 2025, so với 36 nước (47%) năm 2020.",
+    "gold_source_id": "data.pdf",
+    "gold_page": 109,
+    "evidence_quote": "The 2025 heat map found that 54 countries, or 72 percent, had fully accessible public debt data",
+    "filter": null
+  },
+  {
+    "id": "Q15",
+    "split": "dev",
+    "type": "direct",
+    "question": "Điều khoản lãi suất trong MoU tái cơ cấu nợ song phương của Zambia như thế nào?",
+    "expected_answer": "1,0% trong 14 năm đầu, sau đó tăng dần tới tối đa 2,5%.",
+    "gold_source_id": "data.pdf",
+    "gold_page": 70,
+    "evidence_quote": "set at 1.0 percent for the first 14 years, gradually increasing thereafter to a maximum of 2.5 percent",
+    "filter": null
+  },
+  {
+    "id": "Q16",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Vòng đối chiếu dữ liệu chủ nợ–con nợ dùng số liệu cuối 2024 có bao nhiêu chủ nợ tham gia, bao nhiêu khoản vay được báo cáo và tỷ lệ khớp?",
+    "expected_answer": "18 chủ nợ; 4.875 khoản vay/đợt giải ngân (63,4 tỷ USD); 3.762 khoản (77%) khớp.",
+    "gold_source_id": "data.pdf",
+    "gold_page": 112,
+    "evidence_quote": "a total of 3,762 loans and loan tranches (77 percent) were matched to their counterpart in the DRS database",
+    "filter": null
+  },
+  {
+    "id": "Q17",
+    "split": "test",
+    "type": "direct",
+    "question": "Chuyển giao ròng (net transfers) về nợ dài hạn của LMICs thay đổi thế nào từ 2024 sang 2025?",
+    "expected_answer": "Từ dòng chảy ra 118,4 tỷ USD (2024) sang dòng chảy vào 45,4 tỷ USD (2025).",
+    "gold_source_id": "data.pdf",
+    "gold_page": 46,
+    "evidence_quote": "reversing from an outflow of $118.4 billion in 2024 to an inflow of $45.4 billion",
+    "filter": null
+  },
+  {
+    "id": "Q18",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "Không tính Trung Quốc, năm 2025 LMICs nhận bao nhiêu FDI so với kiều hối cá nhân?",
+    "expected_answer": "FDI 333,5 tỷ USD; kiều hối 687,1 tỷ USD.",
+    "gold_source_id": "data.pdf",
+    "gold_page": 55,
+    "evidence_quote": "FDI was $333.5 billion in 2025, whereas personal remittances grew to $687.1 billion",
+    "filter": null
+  },
+  {
+    "id": "Q19",
+    "split": "test",
+    "type": "conditional",
+    "question": "Lãi suất bình quân cam kết với trái phiếu năm 2025: nhóm đủ điều kiện IDA so với nhóm vay IBRD?",
+    "expected_answer": "IDA-eligible 9,4% (tăng 1,0 điểm phần trăm); IBRD 5,5% (giảm 0,3 điểm phần trăm).",
+    "gold_source_id": "data.pdf",
+    "gold_page": 51,
+    "evidence_quote": "increased 1.0 percentage point in 2025 to 9.4 percent",
+    "filter": null
+  },
+  {
+    "id": "Q20",
+    "split": "test",
+    "type": "filter",
+    "question": "Tổng dư nợ nước ngoài của Ukraine cuối 2025 theo hồ sơ quốc gia là bao nhiêu và tăng bao nhiêu?",
+    "expected_answer": "250.257 triệu USD, tăng 29,2% so với 2024.",
+    "gold_source_id": "data.pdf",
+    "gold_page": 257,
+    "evidence_quote": "TOTAL EXTERNAL DEBT STOCK, 2025 250,257 +29.2% from 2024",
+    "filter": {
+      "profile_type": "country_profile",
+      "country": "Ukraine"
+    }
+  },
+  {
+    "id": "Q21",
+    "split": "test",
+    "type": "filter",
+    "question": "Hồ sơ khu vực Châu Âu và Trung Á: tổng nợ nước ngoài năm 2025 và mức tăng so với 2024?",
+    "expected_answer": "1.340 tỷ USD, tăng 15,3%.",
+    "gold_source_id": "data.pdf",
+    "gold_page": 139,
+    "evidence_quote": "TOTAL EXTERNAL DEBT STOCK, 2025 1,340 +15.3% from 2024",
+    "filter": {
+      "profile_type": "regional_profile",
+      "region": "Europe and Central Asia"
+    }
+  },
+  {
+    "id": "Q22",
+    "split": "test",
+    "type": "conditional",
+    "question": "Trong các nước đủ điều kiện IDA, nước nào thực hiện giao dịch mua lại trái phiếu lớn nhất năm 2025 và quy mô bao nhiêu?",
+    "expected_answer": "Kenya, 1,2 tỷ USD (hai đợt mua lại).",
+    "gold_source_id": "data.pdf",
+    "gold_page": 43,
+    "evidence_quote": "the largest from an IDA-eligible country, at $1.2 billion",
+    "filter": null
+  },
+  {
+    "id": "Q23",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "Gánh nặng dịch vụ nợ so với thu ngân sách (trung vị) của các nước IDA thay đổi thế nào từ năm 2000 đến 2025?",
+    "expected_answer": "Từ khoảng 15% thu ngân sách (không gồm viện trợ không hoàn lại) năm 2000 lên hơn 40% năm 2025.",
+    "gold_source_id": "data.pdf",
+    "gold_page": 84,
+    "evidence_quote": "from about 15 percent of government revenues (excluding grants) in 2000 to over 40 percent in 2025",
+    "filter": null
+  },
+  {
+    "id": "Q24",
+    "split": "test",
+    "type": "conditional",
+    "question": "Vì sao tỷ lệ nợ nước ngoài/GNI của các nước đủ điều kiện IDA giảm năm 2025 dù nợ tăng 8,1%?",
+    "expected_answer": "GNI tăng 10,5%, nhanh hơn mức tăng nợ 8,1%, đưa tỷ lệ từ 42,1% xuống 41,2%.",
+    "gold_source_id": "data.pdf",
+    "gold_page": 59,
+    "evidence_quote": "driven by GNI growth of 10.5 percent that outpaced the 8.1 percent increase in debt stock",
+    "filter": null
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "run_at": "2026-11-14T07:10:29.015647+00:00",
+  "corpus": "starter/data/data.pdf",
+  "document_id": "international-debt-report-2026",
+  "source": "starter/data/data.pdf",
+  "benchmark": "starter/benchmark/benchmark.json",
+  "database_url": "postgresql://day6:***@127.0.0.1:55433/day6_lab",
+  "model": {
+    "name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "dimensions": 384,
+    "device": "cpu",
+    "normalized": true,
+    "batch_size": 64
+  },
+  "strategies": [
+    {
+      "key": "A_fixed",
+      "label": "A - fixed-size windows",
+      "description": "500 characters, 50 overlap",
+      "uses_filter": false,
+      "chunk_count": 1020
+    },
+    {
+      "key": "B_paragraph",
+      "label": "B - paragraph-aware",
+      "description": "paragraph packing, max 800 characters",
+      "uses_filter": false,
+      "chunk_count": 674
+    },
+    {
+      "key": "C_paragraph_filter",
+      "label": "C - paragraph-aware + metadata filter",
+      "description": "same chunks as B; applies question metadata filter when provided",
+      "uses_filter": true,
+      "chunk_count": 674
+    }
+  ],
+  "parameters": {
+    "fixed_size": 500,
+    "fixed_overlap": 50,
+    "paragraph_size": 800,
+    "top_k": 3
+  },
+  "model_load_seconds": 64.014
+}

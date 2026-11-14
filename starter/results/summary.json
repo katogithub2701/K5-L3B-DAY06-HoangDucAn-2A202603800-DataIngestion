@@ -1,0 +1,248 @@
+{
+  "total_traces": 72,
+  "overall": {
+    "n": 72,
+    "hit@1_count": 19,
+    "hit@1": 0.2638888888888889,
+    "hit@3_count": 34,
+    "hit@3": 0.4722222222222222,
+    "evidence_hit@3_count": 34,
+    "evidence_hit@3": 0.4722222222222222,
+    "source_page_hit@1_count": 31,
+    "source_page_hit@1": 0.4305555555555556,
+    "source_page_hit@3_count": 43,
+    "source_page_hit@3": 0.5972222222222222
+  },
+  "by_strategy": {
+    "A_fixed": {
+      "n": 24,
+      "hit@1_count": 6,
+      "hit@1": 0.25,
+      "hit@3_count": 11,
+      "hit@3": 0.4583333333333333,
+      "evidence_hit@3_count": 11,
+      "evidence_hit@3": 0.4583333333333333,
+      "source_page_hit@1_count": 7,
+      "source_page_hit@1": 0.2916666666666667,
+      "source_page_hit@3_count": 14,
+      "source_page_hit@3": 0.5833333333333334
+    },
+    "B_paragraph": {
+      "n": 24,
+      "hit@1_count": 5,
+      "hit@1": 0.20833333333333334,
+      "hit@3_count": 10,
+      "hit@3": 0.4166666666666667,
+      "evidence_hit@3_count": 10,
+      "evidence_hit@3": 0.4166666666666667,
+      "source_page_hit@1_count": 10,
+      "source_page_hit@1": 0.4166666666666667,
+      "source_page_hit@3_count": 13,
+      "source_page_hit@3": 0.5416666666666666
+    },
+    "C_paragraph_filter": {
+      "n": 24,
+      "hit@1_count": 8,
+      "hit@1": 0.3333333333333333,
+      "hit@3_count": 13,
+      "hit@3": 0.5416666666666666,
+      "evidence_hit@3_count": 13,
+      "evidence_hit@3": 0.5416666666666666,
+      "source_page_hit@1_count": 14,
+      "source_page_hit@1": 0.5833333333333334,
+      "source_page_hit@3_count": 16,
+      "source_page_hit@3": 0.6666666666666666
+    }
+  },
+  "by_split": {
+    "dev": {
+      "n": 48,
+      "hit@1_count": 13,
+      "hit@1": 0.2708333333333333,
+      "hit@3_count": 24,
+      "hit@3": 0.5,
+      "evidence_hit@3_count": 24,
+      "evidence_hit@3": 0.5,
+      "source_page_hit@1_count": 21,
+      "source_page_hit@1": 0.4375,
+      "source_page_hit@3_count": 28,
+      "source_page_hit@3": 0.5833333333333334
+    },
+    "test": {
+      "n": 24,
+      "hit@1_count": 6,
+      "hit@1": 0.25,
+      "hit@3_count": 10,
+      "hit@3": 0.4166666666666667,
+      "evidence_hit@3_count": 10,
+      "evidence_hit@3": 0.4166666666666667,
+      "source_page_hit@1_count": 10,
+      "source_page_hit@1": 0.4166666666666667,
+      "source_page_hit@3_count": 15,
+      "source_page_hit@3": 0.625
+    }
+  },
+  "by_strategy_split": {
+    "A_fixed": {
+      "dev": {
+        "n": 16,
+        "hit@1_count": 5,
+        "hit@1": 0.3125,
+        "hit@3_count": 8,
+        "hit@3": 0.5,
+        "evidence_hit@3_count": 8,
+        "evidence_hit@3": 0.5,
+        "source_page_hit@1_count": 6,
+        "source_page_hit@1": 0.375,
+        "source_page_hit@3_count": 10,
+        "source_page_hit@3": 0.625
+      },
+      "test": {
+        "n": 8,
+        "hit@1_count": 1,
+        "hit@1": 0.125,
+        "hit@3_count": 3,
+        "hit@3": 0.375,
+        "evidence_hit@3_count": 3,
+        "evidence_hit@3": 0.375,
+        "source_page_hit@1_count": 1,
+        "source_page_hit@1": 0.125,
+        "source_page_hit@3_count": 4,
+        "source_page_hit@3": 0.5
+      }
+    },
+    "B_paragraph": {
+      "dev": {
+        "n": 16,
+        "hit@1_count": 3,
+        "hit@1": 0.1875,
+        "hit@3_count": 7,
+        "hit@3": 0.4375,
+        "evidence_hit@3_count": 7,
+        "evidence_hit@3": 0.4375,
+        "source_page_hit@1_count": 6,
+        "source_page_hit@1": 0.375,
+        "source_page_hit@3_count": 8,
+        "source_page_hit@3": 0.5
+      },
+      "test": {
+        "n": 8,
+        "hit@1_count": 2,
+        "hit@1": 0.25,
+        "hit@3_count": 3,
+        "hit@3": 0.375,
+        "evidence_hit@3_count": 3,
+        "evidence_hit@3": 0.375,
+        "source_page_hit@1_count": 4,
+        "source_page_hit@1": 0.5,
+        "source_page_hit@3_count": 5,
+        "source_page_hit@3": 0.625
+      }
+    },
+    "C_paragraph_filter": {
+      "dev": {
+        "n": 16,
+        "hit@1_count": 5,
+        "hit@1": 0.3125,
+        "hit@3_count": 9,
+        "hit@3": 0.5625,
+        "evidence_hit@3_count": 9,
+        "evidence_hit@3": 0.5625,
+        "source_page_hit@1_count": 9,
+        "source_page_hit@1": 0.5625,
+        "source_page_hit@3_count": 10,
+        "source_page_hit@3": 0.625
+      },
+      "test": {
+        "n": 8,
+        "hit@1_count": 3,
+        "hit@1": 0.375,
+        "hit@3_count": 4,
+        "hit@3": 0.5,
+        "evidence_hit@3_count": 4,
+        "evidence_hit@3": 0.5,
+        "source_page_hit@1_count": 5,
+        "source_page_hit@1": 0.625,
+        "source_page_hit@3_count": 6,
+        "source_page_hit@3": 0.75
+      }
+    }
+  },
+  "filter_compliance": {
+    "A_fixed": {
+      "questions_with_filter": 0,
+      "compliant_questions": 0,
+      "compliance_rate": null,
+      "note": "A question is compliant when every returned hit matches its filter. Questions without a filter are not counted."
+    },
+    "B_paragraph": {
+      "questions_with_filter": 0,
+      "compliant_questions": 0,
+      "compliance_rate": null,
+      "note": "A question is compliant when every returned hit matches its filter. Questions without a filter are not counted."
+    },
+    "C_paragraph_filter": {
+      "questions_with_filter": 5,
+      "compliant_questions": 5,
+      "compliance_rate": 1.0,
+      "note": "A question is compliant when every returned hit matches its filter. Questions without a filter are not counted."
+    }
+  },
+  "resources": {
+    "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "dimensions": 384,
+    "device": "cpu",
+    "batch_size": 64,
+    "cost_usd": 0.0,
+    "corpus_load_seconds": 38.215,
+    "model_load_seconds": 64.014,
+    "chunking_seconds": 0.12,
+    "embedding_seconds": 232.445,
+    "ingest_seconds_by_strategy": {
+      "A_fixed": 6.348,
+      "B_paragraph": 2.543,
+      "C_paragraph_filter": 2.627
+    },
+    "retrieval_seconds": 13.932,
+    "stored_chunks": {
+      "A_fixed": 1020,
+      "B_paragraph": 674,
+      "C_paragraph_filter": 674
+    }
+  },
+  "chunk_statistics": [
+    {
+      "strategy": "A_fixed",
+      "chunk_count": 1020,
+      "characters": 469072,
+      "min_chars": 50,
+      "mean_chars": 459.87,
+      "max_chars": 500,
+      "estimated_tokens": 71083,
+      "documents": 1,
+      "pages": 233
+    },
+    {
+      "strategy": "B_paragraph",
+      "chunk_count": 674,
+      "characters": 429514,
+      "min_chars": 40,
+      "mean_chars": 637.26,
+      "max_chars": 799,
+      "estimated_tokens": 64668,
+      "documents": 1,
+      "pages": 233
+    },
+    {
+      "strategy": "C_paragraph_filter",
+      "chunk_count": 674,
+      "characters": 429514,
+      "min_chars": 40,
+      "mean_chars": 637.26,
+      "max_chars": 799,
+      "estimated_tokens": 64668,
+      "documents": 1,
+      "pages": 233
+    }
+  ]
+}

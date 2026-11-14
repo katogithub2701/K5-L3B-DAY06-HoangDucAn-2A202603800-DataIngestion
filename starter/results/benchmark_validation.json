@@ -1,0 +1,13 @@
+{
+  "question_count": 24,
+  "split_counts": {
+    "dev": 16,
+    "test": 8
+  },
+  "filter_questions": 5,
+  "test_filter_questions": 2,
+  "errors": [],
+  "warnings": [],
+  "benchmark_path": "starter/benchmark/benchmark.json",
+  "loaded_questions": 24
+}

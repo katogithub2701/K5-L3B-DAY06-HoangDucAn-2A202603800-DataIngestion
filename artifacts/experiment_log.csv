@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed-size,500,50,"document_id, source, page, section, year, part, subsection, profile, profile_type, country, region",none,"sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (384d)",Baseline; fixed windows,0.3125,0.5000,0.1250,0.3750,"dev 5/16, Evidence Hit@3 8/16; test 1/8, Evidence Hit@3 3/8; 1020 chunks; local CPU; $0; test seen during iteration, not independent holdout"
+B,paragraph-aware,800,0,"same metadata as A",none,"sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (384d)",Reduce chunk fragmentation,0.1875,0.4375,0.2500,0.3750,"dev 3/16, Evidence Hit@3 7/16; test 2/8, Evidence Hit@3 3/8; 674 chunks; local CPU; $0; test seen during iteration, not independent holdout"
+C,paragraph-aware,800,0,"same metadata as B","apply question metadata filter when supplied","sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (384d)",Test metadata-filter effect vs B,0.3125,0.5625,0.3750,0.5000,"dev 5/16, Evidence Hit@3 9/16; test 3/8, Evidence Hit@3 4/8; 674 chunks; filter compliance 5/5; local CPU; $0; test seen during iteration, not independent holdout"
